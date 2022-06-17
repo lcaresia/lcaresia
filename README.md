@@ -33,7 +33,7 @@
 
 ###
 
-<img href="https://raw.githubusercontent.com/lcaresia/lcaresia/blob/output/snake.svg" alt="Snake animation" />
+<img href="https://raw.githubusercontent.com/lcaresia/lcaresia/output/snake.svg" alt="Snake animation" />
 
 ###
 
