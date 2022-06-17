@@ -34,7 +34,7 @@
 ###
 
 <img href="https://raw.githubusercontent.com/lcaresia/lcaresia/output/snake.svg" alt="Snake animation" />
-
+           
 ###
 
 <h2 align="left">You can read my blog here</h2>
