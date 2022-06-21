@@ -1,7 +1,24 @@
 name: Using classic charts
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.stargazers.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: ""
-  plugin_stargazers: yes
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: generate habits.svg
+      uses: lowlighter/metrics@latest
+      with:
+        filename: habits.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_stargazers: yes
