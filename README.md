@@ -28,21 +28,3 @@
 </div>
 
 ###
-
-<h2 align="left">My activity</h2>
-
-###
-
-<img href="https://raw.githubusercontent.com/lcaresia/lcaresia/output/snake.svg" alt="Snake animation" />
-           
-###
-
-<h2 align="left">You can read my blog here</h2>
-
-###
-
-<div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=4&username=lucascaresia&theme=dracula" alt="Layout with last medium posts"  />
-</div>
-
-###
